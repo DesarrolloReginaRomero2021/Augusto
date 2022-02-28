@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+body{
+    background:  white;
+}
+
+#global{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: white;
+    padding: 25px;
+    box-shadow: 0px 0px 2px gray;
+}
+#logo{
+   
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-bottom: 20px;
+    line-height: 75px;
+    text-transform: uppercase;
+
+}
+
+#logo img{    
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+#menu{
+    background-color: rgb(230, 169, 169);
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+
+}
+#menu ul li{
+    height: 45px;
+    display: inline-block;
+    transition: all 300ms;    
+    width: 24.5%;
+    text-align: center;
+}
+
+#menu ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+
+}
+#menu ul li a:hover{
+    background: #555;
+    color: white;
+}
+
+#menu ul li a .active{
+    background: #555;
+    color: white;
+}
+
+#content-img img{
+    width: 70%;
+    height: 30%;
+}
+
+
+#sidebar{
+    width: 30%;
+    float: left;
+   clear: both;
+}
+
+#sidebar h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar .sucursales,.modelos,.tallas,.categoria,.color{
+    width: 100%;
+    height:  250px;
+    overflow-y: scroll;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#sidebar select{
+    width: 100%;
+    height: 30px;
+}
+
+#sidebar .sucursales h4 span{
+    background: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+#sidebar .tallas h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+
+}
+
+#sidebar .tallas h4 span{
+    background: white;
+    font-size: 12px;
+    padding: 5px;
+    text-align: justify;
+}
+
+#sidebar .modelos h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+
+}
+
+#sidebar .modelos h4 span{
+    background: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+
+#sidebar img{
+    width: 100%;
+
+}
+#sidebar p{
+        text-align: justify;
+}
+
+#buscar{
+    background-image: url('/img/searchIcon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width:  70%;
+    font-size: 14px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.row{
+    float: left;    
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.col-20{
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+.col-30{
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 6px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: scroll;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(230, 169, 169);
+  }
+
+
+#posts{
+    width: 70%;
+    float: right;
+}
+
+h2{
+    font-size: 30px;
+    color: #333;
+}
+.post{
+    padding: 7px;
+}
+.post .date{
+    display: block;
+    color: grey;
+    margin-top: 5px;
+}
+.post p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+.button-more{
+    font-size: 14px;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    
+}
+
+
+#cmbDia,#cmbMes,#cmbAnio{
+    margin-left: 5px;
+}
+#cmbMes{
+    margin-right: 15px;
+    width: 55px;
+}
